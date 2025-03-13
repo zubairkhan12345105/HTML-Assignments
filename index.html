@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes - By Zubair</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .image-placeholder {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-placeholder img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ff5722;
+            color: white;
+        }
+        form {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes - Brought to You by Zubair</h1>
+    </header>
+    <main>
+        <h2>Recipe of the Day: Spaghetti Carbonara</h2>
+        <p>Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. It's simple, delicious, and perfect for any occasion.</p>
+        
+        <!-- Updated Image -->
+        <div class="image-placeholder">
+            <img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg" alt="Spaghetti Carbonara">
+        </div>
+        
+        <h3>Ingredients</h3>
+        <ul>
+            <li>200g spaghetti</li>
+            <li>100g pancetta</li>
+            <li>2 large eggs</li>
+            <li>50g Pecorino cheese</li>
+            <li>50g Parmesan</li>
+            <li>Black pepper</li>
+            <li>Salt</li>
+        </ul>
+        <h3>Steps to Prepare</h3>
+        <ol>
+            <li>Boil the spaghetti in salted water until al dente.</li>
+            <li>Fry the pancetta until crispy.</li>
+            <li>Beat the eggs and mix with grated cheeses.</li>
+            <li>Drain the spaghetti and mix with pancetta.</li>
+            <li>Remove from heat and stir in the egg and cheese mixture.</li>
+            <li>Season with black pepper and serve immediately.</li>
+        </ol>
+        <h3>Nutritional Information</h3>
+        <table>
+            <tr>
+                <th>Nutrient</th>
+                <th>Amount per Serving</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td>25g</td>
+            </tr>
+            <tr>
+                <td>Carbohydrates</td>
+                <td>55g</td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td>20g</td>
+            </tr>
+        </table>
+        
+        <!-- Original YouTube Video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3AAdKl1UYZs" title="Cooking Tutorial" allowfullscreen></iframe>
+        
+        <h3>Submit Your Recipe</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="recipe">Your Recipe:</label>
+            <textarea id="recipe" name="recipe" rows="5" placeholder="Write your recipe here" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
